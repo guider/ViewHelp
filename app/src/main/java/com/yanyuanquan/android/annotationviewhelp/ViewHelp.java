@@ -18,4 +18,9 @@ public @interface ViewHelp {
 
     int loadingView() default 0;
 
+    boolean showLoadingView() default true;
+
+    boolean showErrorView() default true;
+
+    boolean showEmptyView() default true;
 }
